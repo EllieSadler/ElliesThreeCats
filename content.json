@@ -1,0 +1,235 @@
+{
+   "Format": "1.25.0",
+   "ConfigSchema": {
+      "Replace Cat 1": {
+         "AllowValues": "Apollo, Godzilla, Kevin, false",
+         "Default": "Apollo"
+      },
+      "Replace Cat 2": {
+         "AllowValues": "Apollo, Godzilla, Kevin, false",
+         "Default": "Kevin"
+      },
+      "Replace Cat 3": {
+         "AllowValues": "Apollo, Godzilla, Kevin, false",
+         "Default": "Godzilla"
+      }
+   },
+   "Changes": [
+      {
+         "LogName": "Cat 1 Icon - Apollo",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": {
+            "X": 14,
+            "Y": 0,
+            "Width": 13,
+            "Height": 10
+         },
+         "ToArea": {
+            "X": 161,
+            "Y": 211,
+            "Width": 13,
+            "Height": 10
+         },
+         "When": {
+            "Replace Cat 1": "Apollo"
+         }
+      },
+      {
+         "LogName": "Cat 1 Icon - Godzilla",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": {
+            "X": 28,
+            "Y": 0,
+            "Width": 13,
+            "Height": 10
+         },
+         "ToArea": {
+            "X": 161,
+            "Y": 211,
+            "Width": 13,
+            "Height": 10
+         },
+         "When": {
+            "Replace Cat 1": "Godzilla"
+         }
+      },
+      {
+         "LogName": "Cat 1 Icon - Kevin",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 13,
+            "Height": 10
+         },
+         "ToArea": {
+            "X": 161,
+            "Y": 211,
+            "Width": 13,
+            "Height": 10
+         },
+         "When": {
+            "Replace Cat 1": "Kevin"
+         }
+      },
+      {
+         "LogName": "Cat 2 Icon - Apollo",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": {
+            "X": 14,
+            "Y": 0,
+            "Width": 13,
+            "Height": 10
+         },
+         "ToArea": {
+            "X": 177,
+            "Y": 211,
+            "Width": 13,
+            "Height": 10
+         },
+         "When": {
+            "Replace Cat 2": "Apollo"
+         }
+      },
+      {
+         "LogName": "Cat 2 Icon - Godzilla",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": {
+            "X": 28,
+            "Y": 0,
+            "Width": 13,
+            "Height": 10
+         },
+         "ToArea": {
+            "X": 177,
+            "Y": 211,
+            "Width": 13,
+            "Height": 10
+         },
+         "When": {
+            "Replace Cat 2": "Godzilla"
+         }
+      },
+      {
+         "LogName": "Cat 2 Icon - Kevin",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 13,
+            "Height": 10
+         },
+         "ToArea": {
+            "X": 177,
+            "Y": 211,
+            "Width": 13,
+            "Height": 10
+         },
+         "When": {
+            "Replace Cat 2": "Kevin"
+         }
+      },
+      {
+         "LogName": "Cat 3 Icon - Apollo",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": {
+            "X": 14,
+            "Y": 0,
+            "Width": 13,
+            "Height": 12
+         },
+         "ToArea": {
+            "X": 193,
+            "Y": 211,
+            "Width": 13,
+            "Height": 12
+         },
+         "When": {
+            "Replace Cat 3": "Apollo"
+         }
+      },
+      {
+         "LogName": "Cat 3 Icon - Godzilla",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": {
+            "X": 28,
+            "Y": 0,
+            "Width": 13,
+            "Height": 12
+         },
+         "ToArea": {
+            "X": 193,
+            "Y": 211,
+            "Width": 13,
+            "Height": 12
+         },
+         "When": {
+            "Replace Cat 3": "Godzilla"
+         }
+      },
+      {
+         "LogName": "Cat 3 Icon - Kevin",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 13,
+            "Height": 12
+         },
+         "ToArea": {
+            "X": 193,
+            "Y": 211,
+            "Width": 13,
+            "Height": 12
+         },
+         "When": {
+            "Replace Cat 3": "Kevin"
+         }
+      },
+      {
+         "LogName": "Replace Cat 1",
+         "Action": "EditImage",
+         "Target": "Animals/cat",
+         "FromFile": "assets/{{ Replace Cat 1 }}.png",
+         "When": {
+            "Replace Cat 1": "Apollo, Godzilla, Kevin"
+         }
+      },
+      {
+         "LogName": "Replace Cat 2",
+         "Action": "EditImage",
+         "Target": "Animals/cat1",
+         "FromFile": "assets/{{ Replace Cat 2 }}.png",
+         "When": {
+            "Replace Cat 2": "Apollo, Godzilla, Kevin"
+         }
+      },
+      {
+         "LogName": "Replace Cat 3",
+         "Action": "EditImage",
+         "Target": "Animals/cat2",
+         "FromFile": "assets/{{ Replace Cat 3 }}.png",
+         "When": {
+            "Replace Cat 3": "Apollo, Godzilla, Kevin"
+         }
+      }
+   ]
+}

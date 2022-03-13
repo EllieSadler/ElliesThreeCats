@@ -1,0 +1,12 @@
+{
+   "Name": "Ellie's Three Cats",
+   "Author": "EllieBellaLuna",
+   "Version": "1.0.0",
+   "Description": "Replaces the three cat options in the game with my three cats.",
+   "UniqueID": "EllieBellaLuna.ThreeCats",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
